@@ -67,6 +67,11 @@
   background-color: red;
 }
 
+.box_features {
+  background-color: lightgreen;
+  margin-top: 10px;
+}
+
 /* HEADER */
 .header_top {
   height: 80px;
