@@ -1,0 +1,34 @@
+/* debug */
+
+.bgc_white {
+  background-color: white;
+}
+
+.bgc_lgreen {
+  background-color: lightgreen;
+}
+
+.bgc_yellow {
+  background-color: yellow;
+}
+
+.bgc_dgrey {
+  background-color: darkgrey;
+}
+
+.bgc_lgrey {
+  background-color: lightgrey;
+}
+
+.bgc_brown {
+  background-color: brown;
+}
+
+.hamburger_test {
+}
+
+/* HEADER */
+
+.header_top {
+  height: 80px;
+}
