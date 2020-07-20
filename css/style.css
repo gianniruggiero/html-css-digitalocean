@@ -62,7 +62,21 @@
 }
 
 /* HEADER */
-
 .header_top {
   height: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+.header_jumbotron {
+  position: relative;
+  top: 80px;
+}
+
+main {
+  position: relative;
+  top: 80px;
 }
