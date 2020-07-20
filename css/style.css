@@ -8,8 +8,13 @@
   background-color: lightgreen;
 }
 
-.bgc_blue {
+.bgc_dblue {
   background-color: lightblue;
+}
+
+.bgc_dblue {
+  background-color: blue;
+  color: white;
 }
 
 .bgc_yellow {
@@ -39,6 +44,10 @@
 /* p {
   margin-top: 20px;
 } */
+
+.mgt_30 {
+  margin-top: 30px;
+}
 
 .pd_30 {
   padding: 30px 0;
