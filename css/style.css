@@ -26,7 +26,7 @@
 }
 
 .bgc_lgrey {
-  background-color: lightgrey;
+  background-color: #f3f5f9;
 }
 
 .bgc_brown {
@@ -67,21 +67,33 @@
   margin-top: 30px;
 }
 
-.mgb_15 {
+.mgt_15 {
   margin-top: 15px;
+}
+
+.mgb_50 {
+  margin-bottom: 50px;
 }
 
 .pdt_40 {
   padding-top: 40px;
 }
 
+.pdt_70 {
+  padding-top: 70px;
+}
+
+.pdb_60 {
+  padding-bottom: 60px;
+}
 .pdb_30 {
   padding-bottom: 30px;
 }
-
 .pdtb_50 {
   padding: 50px 0px;
 }
+
+
 
 .form_box {
   display: inline-block;
@@ -116,12 +128,30 @@ body {
   text-decoration: none;
 }
 
+.li_depoint {
+  list-style: none;
+}
+
+.nav_deploy li {
+  padding-top: 20px;
+  list-style: none;
+}
+
 /* TYPO */
 
 h1 {
   font-size: 64px;
   font-weight: 500;
   color: #fff;
+}
+
+h2 {
+  font-size: 38px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 .header_jumbotron p {
@@ -132,6 +162,11 @@ h1 {
 .form_box h3 {
   font-size: 32px;
   font-weight: 700;
+}
+
+.applications p {
+  font-size: 23px;
+  color: #5c6a88;
 }
 
 .col_blue_lite {
