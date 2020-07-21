@@ -106,6 +106,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.no_dec {
+  text-decoration: none;
+}
+
 /* TYPO */
 
 h1 {
@@ -218,8 +222,16 @@ h1 {
   text-decoration: none;
 }
 
+.btn_form:hover {
+  text-decoration: none;
+}
+
 .btn_blue {
   background-color: #579aff;
+  color: #fff;
+}
+
+.btn_blue:hover {
   color: #fff;
 }
 
@@ -227,6 +239,10 @@ h1 {
   background-color: #fff;
   color: #626262;
   box-shadow: 2px 2px #e3e3e3;
+}
+
+.btn_white:hover {
+  color: #626262;
 }
 
 .form_box {
@@ -260,6 +276,10 @@ h1 {
   color: #757575;
 }
 
+.terms_service {
+  text-decoration: underline;
+}
+
 main {
   position: relative;
   top: 70px;
@@ -269,3 +289,8 @@ footer {
   position: relative;
   top: 70px;
 }
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  #logo_do {
+    width: 130px;
+  }
