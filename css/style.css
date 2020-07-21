@@ -55,15 +55,23 @@
   margin-top: 20px;
 } */
 
+.mgt_10 {
+  margin-top: 10px;
+}
+
 .mgt_30 {
   margin-top: 30px;
 }
 
-.pd_30 {
-  padding: 30px 0;
+.mgb_15 {
+  margin-top: 15px;
 }
 
-.form_test {
+.pdtb_50 {
+  padding: 50px 0;
+}
+
+.form_box {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -98,11 +106,37 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* TYPO */
+
+h1 {
+  font-size: 64px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.header_jumbotron p {
+  font-size: 23px;
+  color: #bbcdff;
+}
+
+.form_box h3 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.col_blue_lite {
+  color: #006aff;
+}
+
+.col_blue_dark {
+  color: #32446c;
+}
+
 /* HEADER */
 
 /* header top */
 .header_top {
-  height: 80px;
+  height: 70px;
   position: fixed;
   top: 0;
   left: 0;
@@ -114,8 +148,8 @@ body {
 
 /* impostazioni per allign verticale delle voci di menu */
 .header_top nav {
-  height: 80px;
-  line-height: 80px;
+  height: 70px;
+  line-height: 70px;
 }
 
 /* colore voci di menu header top */
@@ -135,8 +169,8 @@ body {
 }
 
 .logo_do {
-  line-height: 80px;
-  height: 80px;
+  line-height: 60px;
+  height: 70px;
 }
 
 #btn_signup {
@@ -163,18 +197,75 @@ body {
   line-height: 80px;
 }
 
+/* JUMBOTRON */
 
 .header_jumbotron {
   position: relative;
-  top: 80px;
+  top: 70px;
+  background-image: linear-gradient(to top,  #001e9a, #0048c5);
+}
+
+
+/* input form */
+
+.btn_form {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 0px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn_blue {
+  background-color: #579aff;
+  color: #fff;
+}
+
+.btn_white {
+  background-color: #fff;
+  color: #626262;
+  box-shadow: 2px 2px #e3e3e3;
+}
+
+.form_box {
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.logo_g {
+  height: 25px;
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn_google {
+  position: relative;
+}
+
+#f_email, #f_password {
+  font-size: 18px;
+  height: 45px;
+}
+
+#f_email::placeholder {
+  color: #757575;
+}
+
+#f_password::placeholder {
+  color: #757575;
 }
 
 main {
   position: relative;
-  top: 80px;
+  top: 70px;
 }
 
 footer {
   position: relative;
-  top: 80px;
+  top: 70px;
 }
