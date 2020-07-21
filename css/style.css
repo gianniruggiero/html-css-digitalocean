@@ -286,8 +286,8 @@ h1 {
 /* sezione LOGHI */
 
 .logo_set {
-  border: 1px solid black;
-  background-color: brown;
+  /* border: 1px solid black; */
+  /* background-color: brown; */
   width: 100%;
 }
 
@@ -322,8 +322,8 @@ footer {
   }
 
   .logo_set {
-    border: 1px solid black;
-    background-color: brown;
+    /* border: 1px solid black; */
+    /* background-color: brown; */
     width: 100%;
   }
 
