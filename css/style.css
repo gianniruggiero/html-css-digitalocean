@@ -129,8 +129,9 @@ body {
   color: #004aff;
 }
 
+/* dimensioni e centratura logo Digital Ocean */
 #logo_do {
-  max-width: 200px;
+  max-width: 180px;
 }
 
 .logo_do {
@@ -138,6 +139,22 @@ body {
   height: 80px;
 }
 
+#btn_signup {
+  border: 1px solid #004aff;
+  border-radius: 4px;
+  padding: 8px 12px;
+  color: #004aff;
+}
+
+#btn_signup:hover {
+  background-color: #579aff;
+  color: white;
+}
+
+.hamburger_ico {
+  color: #2586fd;
+  font-size: 20px;
+}
 .h_80 {
   height: 80px;
 }
