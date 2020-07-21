@@ -33,6 +33,9 @@
   background-color: brown;
 }
 
+.col_red {
+  color: red;
+}
 .pdt_25 {
   padding-top: 25px;
 }
@@ -41,6 +44,13 @@
   margin: 0 auto;
 }
 
+.pdl_5px {
+  padding-left: 5px;
+}
+
+.mgl_5 {
+  margin-left: 5px;
+}
 /* p {
   margin-top: 20px;
 } */
@@ -81,7 +91,16 @@
   margin-top: 10px;
 }
 
+/* MIX */
+
+/* font generale della pagina */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
 /* HEADER */
+
+/* header top */
 .header_top {
   height: 80px;
   position: fixed;
@@ -89,7 +108,44 @@
   left: 0;
   z-index: 1;
   width: 100%;
+  font-size: 16px;
+  font-weight: 700;
 }
+
+/* impostazioni per allign verticale delle voci di menu */
+.header_top nav {
+  height: 80px;
+  line-height: 80px;
+}
+
+/* colore voci di menu header top */
+.header_top nav a {
+  color: #031c4e;
+  text-decoration: none;
+}
+
+/* colore hover per voci di menu header top */
+.header_top li a:hover {
+  color: #004aff;
+}
+
+#logo_do {
+  max-width: 200px;
+}
+
+.logo_do {
+  line-height: 80px;
+  height: 80px;
+}
+
+.h_80 {
+  height: 80px;
+}
+
+.lh_80 {
+  line-height: 80px;
+}
+
 
 .header_jumbotron {
   position: relative;

@@ -12,6 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Font Awesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <!-- Google Fonts  -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 
     <title>Digital Ocean</title>
 
@@ -24,18 +28,34 @@
     <!-- intestazione di pagina -->
     <header>
       <!-- HEADER top   -->
-      <div class="bgc_lgrey header_top">
-        <div class="bgc_dgrey container">
+      <div class="header_top bgc_white">
+        <!-- container BOOTSTRAP -->
+        <div class="container">
+          <!-- row BOOTSTRAP -->
           <div class="row">
-            <div class="col-sm-3 col-xs-8 logo_do bgc_yellow">
-              Digital Oc
+            <!-- logo Digital Ocean -->
+            <div class="col-sm-3 col-xs-8 logo_do">
+              <img id="logo_do" src="img/logo_do.png" alt="logo Digital Ocean">
             </div>
+            <!-- /logo Digital Ocean -->
+            <!-- colonna menu CX -->
             <div class="col-md-4 col-sm-8 col-xs-2 bgc_white text-right">
-              <nav class="visible-md visible-lg">Products Products Products Products</nav>
+              <nav class="visible-md visible-lg">
+                <ul class="list-inline list-undecored list-unstyled">
+                  <li><a href="#">Products<i class="fas fa-angle-down mgl_5"></i></a></li>
+                  <li><a href="#">Customers</a></li>
+                  <li><a href="#">Community<i class="fas fa-angle-down mgl_5"></i></a></li>
+                  <li><a href="#">Pricing</a></li>
+                </ul>
+              </nav>
             </div>
+            <!-- / colonna menu CX -->
+            <!-- colonna menu DX -->
             <div class="col-md-5 col-sm-1 col-xs-2 bgc_lgreen text-right">
               <!-- nav menu header top SX -->
-              <nav class="visible-md visible-lg">Docs Docs Login Sign Up</nav>
+              <nav class="visible-md visible-lg">
+
+              </nav>
               <!-- /nav menu header top SX -->
               <!-- hamburger menu -->
               <nav class="visible-xs visible-sm">
@@ -43,8 +63,12 @@
               </nav>
               <!-- /hamburger menu -->
             </div>
+            <!-- /colonna menu DX -->
+
           </div>
+          <!-- /row BOOTSTRAP -->
         </div>
+        <!-- /container BOOTSTRAP -->
       </div>
       <!-- /HEADER top   -->
       <!-- JUMBOTRON -->
@@ -411,7 +435,6 @@
             </nav>
           </div>
           <!-- /colonna 3 - Company list -->
-
           <!-- colonna 4 - Company list -->
           <div class="col-md-2 col-sm-6 col-xs-12">
             <nav>
