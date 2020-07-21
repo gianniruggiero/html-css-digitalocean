@@ -148,6 +148,7 @@ h1 {
 
 h2 {
   font-size: 38px;
+  font-weight: bold;
 }
 
 h4 {
@@ -365,7 +366,6 @@ h4 {
 }
 
 .box_app {
-  background-color: lightgreen;
   margin-top: 10px;
 }
 
@@ -390,8 +390,6 @@ h4 {
   }
 
   .logo_set {
-    /* border: 1px solid black; */
-    /* background-color: brown; */
     width: 100%;
   }
 
