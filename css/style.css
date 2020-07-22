@@ -534,6 +534,43 @@ h4 {
   text-decoration: none;
 }
 
+/* sezione FOOTER */
+
+footer {
+  background-color: #031c4e;
+  color: #7a859d;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+footer h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+footer h5 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+footer h3 {
+  color: #fff;
+  margin-top: 0px;
+}
+
+.col_grey_ft {
+  color: #586785;
+  }
+
+.nav_social i {
+  color: #7a859d;
+  font-size: 25px;
+
+}
+
+.nav_footer_main li {
+  padding-top: 10px;
+}
 
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
