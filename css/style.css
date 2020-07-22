@@ -191,8 +191,6 @@ h4 {
   color: #586686;
 }
 
-
-
 .col_blue_lite {
   color: #006aff;
 }
@@ -439,6 +437,48 @@ h4 {
 .img_slide1 {
   display: inline-block;
 }
+
+/* sezione REGIONS */
+
+.regions {
+  background-image: linear-gradient(to top,  #001e9a, #0048c5);
+}
+
+.wrap_riga {
+  border: 1px solid #fff;
+}
+
+/* riga bianca separatrice di riga */
+.border_w {
+  border-bottom: 1px solid white;
+  padding: 10px 0px;
+}
+
+.no_border_w {
+  padding: 10px 0px;
+}
+
+.angle_link {
+  padding-left: 10px;
+}
+
+/* colore 1 dei dati della griglia */
+.grid_col1 {
+  color: #fff;
+}
+
+/* colore 2 dei dati della griglia */
+.grid_col2 {
+  color: #a3b6e3;
+}
+
+/* colore 3 dei dati della griglia */
+.grid_col3 {
+  color: #00d5d2;
+}
+
+
+
 
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
