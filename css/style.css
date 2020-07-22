@@ -558,13 +558,13 @@ footer h3 {
   padding-top: 10px;
 }
 
-/* shar helper */
+/* shark helper */
 
 .wrap_sammy {
   position: fixed;
   z-index: 5;
   top: 400px;
-  right: 0px;
+  right: 40px;
 }
 
 .sammy {
@@ -733,6 +733,25 @@ footer h3 {
   .nav_social i {
     font-size: 30px;
   }
+
+  /* shark helper */
+
+  .wrap_sammy {
+    top: 400px;
+    left: 40px;
+  }
+
+  .sammy_ico {
+    top: -70px;
+    left: 0px;
+  }
+
+  .msg_n {
+    left: 47px;
+    top: -82px;
+    background-color: red;
+  }
+
 }
 
 
@@ -817,6 +836,24 @@ footer h3 {
 
   .slider_box {
     padding: 30px 0px;
+  }
+
+  /* shark helper */
+
+  .wrap_sammy {
+    top: 400px;
+    left: 40px;
+  }
+
+  .sammy_ico {
+    top: -70px;
+    left: 0px;
+  }
+
+  .msg_n {
+    left: 47px;
+    top: -82px;
+    background-color: red;
   }
 
 }
