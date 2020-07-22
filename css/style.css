@@ -112,6 +112,10 @@
   padding-top: 70px;
 }
 
+.pdt_90 {
+  padding-top: 90px;
+}
+
 .pdb_60 {
   padding-bottom: 60px;
 }
@@ -538,9 +542,7 @@ h4 {
 
 footer {
   background-color: #031c4e;
-  color: #7a859d;
-  font-size: 16px;
-  font-weight: 700;
+
 }
 
 footer h4 {
@@ -556,18 +558,41 @@ footer h5 {
 footer h3 {
   color: #fff;
   margin-top: 0px;
+  font-weight: 500;
+}
+
+/* colore e font voce di menu */
+.nav_footer_main a {
+  color: #7a859d;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* colore hover voce di menu */
+.nav_footer_main a:hover {
+  color: #fff;
+  text-decoration: none;
 }
 
 .col_grey_ft {
   color: #586785;
   }
 
+.col_lgrey_ft {
+  color: #7a859d;
+  }
+
+/* dimensione icone nav social */
 .nav_social i {
   color: #7a859d;
   font-size: 25px;
-
 }
 
+.nav_social li a:hover i {
+  color: #fff;
+}
+
+/* distanziamneto voci di menu */
 .nav_footer_main li {
   padding-top: 10px;
 }
@@ -651,10 +676,32 @@ footer h3 {
     font-size: 24px;
   }
 
+  /* sezione FOOTER   */
+  /* aumenta il font delel voci di menu */
+  .nav_footer_main a {
+    font-size: 20px;
+  }
+
+  footer h4 {
+    font-size: 20px;
+  }
+
+  footer h5 {
+    font-size: 20px;
+  }
+
+  footer h3 {
+    font-size: 22px;
+  }
+
+  /* dimensione icone nav social */
+  .nav_social i {
+    font-size: 30px;
+  }
 }
 
 
-/* MEDIA QUERY XS */
+/* MEDIA QUERY <XS */
 @media screen and (max-width: 450px) {
   .logo_set {
     /* border: 1px solid black; */
