@@ -510,6 +510,29 @@ h4 {
   padding: 80px 0px;
 }
 
+/* sezione ACCOUNT */
+
+.account {
+  background-image: linear-gradient(to top,  #001e9a, #0048c5);
+}
+
+.btn_account {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #006aff;
+  background-color: #fff;
+}
+
+.account a:hover {
+  color: #fff;
+  background-color: #006aff;
+  text-decoration: none;
+}
 
 
 /* MEDIA QUERY XS */
@@ -576,10 +599,19 @@ h4 {
     display: none;
   }
 
-  /* sezione slider 2 */
+  /* sezione SLIDER 2 */
 
   .slider_box {
     padding: 30px 0px;
+  }
+
+  /* sezione ACCOUNT */
+  .account h2 {
+    font-size: 50px;
+  }
+
+  .btn_account {
+    font-size: 24px;
   }
 
 }
