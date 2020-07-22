@@ -68,8 +68,16 @@
   margin-top: 30px;
 }
 
+.mgt_40 {
+  margin-top: 40px;
+}
+
 .mgt_15 {
   margin-top: 15px;
+}
+
+.mgb_30 {
+  margin-bottom: 30px;
 }
 
 .mgb_50 {
@@ -80,9 +88,6 @@
   margin-bottom: 15px;
 }
 
-.mgt_40 {
-  margin-top: 40px;
-}
 
 .pdt_40 {
   padding-top: 40px;
@@ -154,6 +159,11 @@ h2 {
   font-weight: bold;
 }
 
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 h4 {
   font-size: 18px;
   font-weight: bolder;
@@ -169,7 +179,7 @@ h4 {
   font-weight: 700;
 }
 
-.applications p, .slider1 p {
+.applications p, .slider1 p, .features p {
   font-size: 23px;
   font-weight: 500;
   color: #5c6a88;
