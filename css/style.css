@@ -558,6 +558,69 @@ footer h3 {
   padding-top: 10px;
 }
 
+/* shar helper */
+
+.sammy {
+  position: relative;
+  width: 500px;
+  height: 100px;
+}
+
+.sammy_txt {
+  font-size: 18px;
+  font-weight: 500;
+  width: 400px;
+  height: 80px;
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 10px;
+  color: #031c4e;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.sammy_ico {
+  position: absolute;
+  bottom: 0;
+  left: 420px;
+  border-radius: 4px;
+  width: 70px;
+  height: 70px;
+}
+
+.square_arrow {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  transform: rotate(45deg);
+  left: 385px;
+  top: 65px;
+  background-color: #fff;
+}
+
+
+.msg_n {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border: 4px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 465px;
+  top: 16px;
+  background-color: red;
+}
+
+.msg_n h6 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 7px;
+  /* line-height: 30px;
+  margin: 0px; */
+}
+
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
   h1 {
