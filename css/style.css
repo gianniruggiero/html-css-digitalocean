@@ -477,8 +477,17 @@ h4 {
   color: #00d5d2;
 }
 
+/* all'hover il testo di link rimane ugugale */
+.grid_regions_1 a:hover {
+  color: #00d5d2;
+  text-decoration: none;
+}
 
-
+/* all'hover il testo di link rimane ugugale */
+.grid_regions_2 a:hover {
+  color: #00d5d2;
+  text-decoration: none;
+}
 
 /* MEDIA QUERY XS */
 @media screen and (max-width: 768px) {
